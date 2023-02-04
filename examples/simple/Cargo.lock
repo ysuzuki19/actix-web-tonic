@@ -183,7 +183,7 @@ dependencies = [
 
 [[package]]
 name = "actix-web-tonic"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "actix-http",
  "actix-service",
@@ -1472,16 +1472,16 @@ checksum = "b5379f6ae86388c2615ae0b9e11c517398069a51367db60ff668c266e3d334ef"
 
 [[package]]
 name = "tokio"
-version = "1.18.0"
+version = "1.20.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0f48b6d60512a392e34dbf7fd456249fd2de3c83669ab642e021903f4015185b"
+checksum = "eb78f30e4b41e98ca4cce5acb51168a033839a7af9e42b380355808e14e98ee0"
 dependencies = [
+ "autocfg",
  "bytes",
  "libc",
  "memchr",
  "mio",
  "num_cpus",
- "once_cell",
  "parking_lot",
  "pin-project-lite",
  "signal-hook-registry",
